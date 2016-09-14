@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B335F2E1D859BBD007F73FD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B335F2D1D859BBD007F73FD /* Launch Screen.storyboard */; };
+		1BC1BA411D87CACC00DFDE5F /* CustomCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1BA401D87CACC00DFDE5F /* CustomCollectionViewLayout.swift */; };
 		20101BE219CF2E7900E363A8 /* RainforestCardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20101BE119CF2E7900E363A8 /* RainforestCardInfo.swift */; };
 		20101BE919CF4E9300E363A8 /* FrameCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20101BE819CF4E9300E363A8 /* FrameCalculator.swift */; };
 		202BB8C719E77A25009CD152 /* AttributionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202BB8C619E77A25009CD152 /* AttributionTableViewCell.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1B335F2D1D859BBD007F73FD /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1BC1BA401D87CACC00DFDE5F /* CustomCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewLayout.swift; sourceTree = "<group>"; };
 		20101BE119CF2E7900E363A8 /* RainforestCardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainforestCardInfo.swift; sourceTree = "<group>"; };
 		20101BE819CF4E9300E363A8 /* FrameCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameCalculator.swift; sourceTree = "<group>"; };
 		202BB8C619E77A25009CD152 /* AttributionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributionTableViewCell.swift; sourceTree = "<group>"; };
@@ -88,11 +90,11 @@
 			isa = PBXGroup;
 			children = (
 				206134AB19B53F8000888CAB /* RainforestCardCell.swift */,
-				20744EE419F3184A00089E92 /* GradientView.swift */,
 				2061349019B53BE200888CAB /* RainforestViewController.swift */,
+				20744EE419F3184A00089E92 /* GradientView.swift */,
 				20E45EA41AE9B03C00741F15 /* GradientNode.swift */,
 				20E45EA61AE9B67800741F15 /* AnimatedContentsDisplayLayer.swift */,
-				20A29BF919B55FA2007FF4F2 /* Layers-Bridging-Header.h */,
+				206EF71C19EB28F5008EA306 /* AttributionScreen */,
 				2094AC3119E4CE1F00AF33ED /* Other Files */,
 			);
 			path = Layers;
@@ -130,6 +132,7 @@
 				20A29BFA19B55FA3007FF4F2 /* UIImage+ImageEffects.h */,
 				20A29BFB19B55FA3007FF4F2 /* UIImage+ImageEffects.m */,
 				203646A919DD00980085BFD5 /* RainforestCollectionViewLayout.swift */,
+				1BC1BA401D87CACC00DFDE5F /* CustomCollectionViewLayout.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 		2094AC3119E4CE1F00AF33ED /* Other Files */ = {
 			isa = PBXGroup;
 			children = (
+				20A29BF919B55FA2007FF4F2 /* Layers-Bridging-Header.h */,
 				2061349219B53BE200888CAB /* Main.storyboard */,
 				2061349519B53BE200888CAB /* Images.xcassets */,
 				2061348C19B53BE200888CAB /* Supporting Files */,
@@ -145,7 +149,6 @@
 				206EF71A19E9E059008EA306 /* Factories.swift */,
 				206EF71E19EB2935008EA306 /* UI */,
 				206EF71D19EB2915008EA306 /* Data */,
-				206EF71C19EB28F5008EA306 /* AttributionScreen */,
 			);
 			name = "Other Files";
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				2061349119B53BE200888CAB /* RainforestViewController.swift in Sources */,
 				20744EE519F3184A00089E92 /* GradientView.swift in Sources */,
 				20101BE919CF4E9300E363A8 /* FrameCalculator.swift in Sources */,
+				1BC1BA411D87CACC00DFDE5F /* CustomCollectionViewLayout.swift in Sources */,
 				206EF71B19E9E059008EA306 /* Factories.swift in Sources */,
 				202BB8C719E77A25009CD152 /* AttributionTableViewCell.swift in Sources */,
 				20101BE219CF2E7900E363A8 /* RainforestCardInfo.swift in Sources */,
